@@ -1,0 +1,73 @@
+*{
+  background-color: azure;
+}
+h1{
+  text-align: center;
+  color: rgb(41, 41, 164);
+  font-size: 50px;
+}
+#event-details-modal {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 400px;
+  margin: 40px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#event-details-modal h2 {
+  margin-top: 0;
+}
+
+#event-details-modal input[type="text"],
+#event-details-modal textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#event-details-modal textarea {
+  resize: vertical;
+}
+
+.assigned-to,
+.status {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.assigned-to label,
+.status label {
+  margin-right: 10px;
+}
+
+#comments-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#comments-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+#comments-list input[type="text"] {
+  flex-grow: 1;
+  margin-right: 5px;
+}
+
+.comment-input {
+  display: flex;
+  margin-top: 10px;
+}
+
+.comment-input input[type="text"] {
+  flex-grow: 1;
+  margin-right: 5px;
+}

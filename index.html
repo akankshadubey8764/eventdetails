@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TechFestEventDetails</title>
+</head>
+<body>
+  <h1> TECHFEST 2024 </h1>
+  <div id="event-details-modal">
+    <h2>
+      <input type="text" id="event-title" value="Event Title" />
+    </h2>
+    <p>
+      <textarea id="event-description" rows="5">Event Description</textarea>
+    </p>
+    <div class="assigned-to">
+      <label for="assigned-to">Assigned to:</label>
+      <select id="assigned-to">
+        <option value="John Doe">Associate Professor</option>
+        <option value="Jane Doe">Assistat Professor</option>
+        <option value="Bob Smith">Professor</option>
+      </select>
+    </div>
+    <div class="status">
+      <label for="status">Status:</label>
+      <span id="status-text">In Progress</span>
+      <button id="mark-complete">Mark as Complete</button>
+    </div>
+    <h3>Comments</h3>
+    <ul id="comments-list"></ul>
+    <div class="comment-input">
+      <input type="text" id="new-comment" placeholder="Add a comment" />
+      <button id="add-comment">Add Comment</button>
+    </div>
+  </div>
+</body>
+</html>
